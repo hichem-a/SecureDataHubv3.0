@@ -1,17 +1,20 @@
-import tkinter as tk
-from tkinter import ttk, simpledialog, messagebox, filedialog
-from functions.user_management import add_user_to_system, delete_user, update_user_role
-from functions.file_management import ensure_files_json_exists
-from functions.encryption import encrypt, decrypt
-from functions.compliance import Compliance
-from functions.notifications import send_notification, get_received_files, get_all_notifications, send_admin_notification
-from functions.logging import log_file_action, get_user_activity_log
-from functions.policy_editor import PolicyEditor
-import os
 import json
-import pyperclip
+import os
 import random
 import string
+import tkinter as tk
+from tkinter import ttk, simpledialog, messagebox, filedialog
+
+import pyperclip
+
+from functions.encryption import encrypt, decrypt
+from functions.file_management import ensure_files_json_exists
+from functions.logging import log_file_action, get_user_activity_log
+from functions.notifications import send_notification, get_received_files, get_all_notifications, \
+    send_admin_notification
+from functions.policy_editor import PolicyEditor
+from functions.user_management import add_user_to_system, delete_user, update_user_role
+
 
 def view_user_data(app):
     """Zeigt die Dateiaktionen aller Benutzer an (nur Admin)"""

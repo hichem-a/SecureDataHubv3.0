@@ -1,10 +1,11 @@
-import tkinter as tk
-from tkinter import ttk, simpledialog, messagebox, filedialog
 from ttkthemes import ThemedTk
-from functions.user_management import load_users, save_admin_account, enable_2fa, verify_2fa
-from functions.ui_functions import *
-from functions.compliance import Compliance
 import pyotp
+from ttkthemes import ThemedTk
+
+from functions.compliance import Compliance
+from functions.ui_functions import *
+from functions.user_management import load_users, save_admin_account, enable_2fa, verify_2fa
+
 
 class SecureDataHubApp:
     def __init__(self, root):
