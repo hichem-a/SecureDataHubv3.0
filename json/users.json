@@ -1,0 +1,15 @@
+{
+    "hichem": {
+        "password": "test123",
+        "role": "admin",
+        "2fa_secret": "VJRKZ2564GZPW5ZV4MGD5ZWPUXSZZ4P4"
+    },
+    "tomi": {
+        "password": "1234",
+        "role": "user"
+    },
+    "jalel": {
+        "password": "12345",
+        "role": "user"
+    }
+}

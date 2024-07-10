@@ -1,0 +1,59 @@
+{
+    "tomi": [],
+    "hichem": [
+        {
+            "sender": "System",
+            "file_path": "User jalel added by admin hichem.",
+            "password": null
+        },
+        {
+            "sender": "hichem",
+            "file_path": "hello  new here",
+            "password": null
+        },
+        {
+            "sender": "System",
+            "file_path": "Admin hichem sent a message to all users: hello  new here",
+            "password": null
+        },
+        {
+            "sender": "System",
+            "file_path": "Compliance policies edited by admin hichem.",
+            "password": null
+        },
+        {
+            "sender": "System",
+            "file_path": "Compliance policies edited by admin hichem.",
+            "password": null
+        }
+    ],
+    "jalel": [
+        {
+            "file_path": "C:/Users/hiche/Downloads/WhatsApp Bild 2024-06-07 um 16.04.46_2ad583ae.jpg.shared",
+            "sender": "hichem",
+            "password": "^YqeO[6(N\\^1"
+        },
+        {
+            "sender": "hichem",
+            "file_path": "C:/Users/hiche/Downloads/Magic of Kairouan_ City of History, Culture & Spirituality.mp3.shared",
+            "password": "(a?9,7uQKq$p"
+        },
+        {
+            "sender": "hichem",
+            "file_path": "C:/Users/hiche/Downloads/A.jpg.shared",
+            "password": "51TZkovm26Q2"
+        },
+        {
+            "sender": "hichem",
+            "file_path": "hello  new here",
+            "password": null
+        }
+    ],
+    "testadmin": [
+        {
+            "sender": "hichem",
+            "file_path": "test",
+            "password": null
+        }
+    ]
+}

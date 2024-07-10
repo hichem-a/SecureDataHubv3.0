@@ -1,0 +1,17 @@
+{
+  "password_policy": {
+    "description": "Passwords must be at least 12 characters long and include uppercase, lowercase, digits, and special characters.",
+    "requirement": true,
+    "article": "32(1)(b)"
+  },
+  "data_encryption": {
+    "description": "Data must be encrypted using AES-256.",
+    "requirement": true,
+    "article": "32(1)(a)"
+  },
+  "access_control": {
+    "description": "Access to sensitive data must be restricted based on user roles.",
+    "requirement": true,
+    "article": "32(1)(d)"
+  }
+}
