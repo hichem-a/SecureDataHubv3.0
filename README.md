@@ -8,8 +8,8 @@ Folgen Sie diesen Schritten, um das Projekt lokal zu installieren und auszuführ
 
 1. Klonen Sie das Repository:
     ```bash
-    git clone https://github.com/deinbenutzername/SecureDataHub.git
-    cd SecureDataHub
+    git clone https://github.com/hichem-a/SecureDataHubv3.0.git
+    cd SecureDataHubv3.0
     ```
 
 2. Erstellen und aktivieren Sie eine virtuelle Umgebung:
